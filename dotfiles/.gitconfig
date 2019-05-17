@@ -1,0 +1,12 @@
+[user]
+	name = Nelson Chan
+	email = khchanel@gmail.com
+[push]
+	default = simple
+[alias]
+	st = status
+	co = checkout
+	df = diff
+	lg = log 
+	up = !git fetch && git rebase --autostash FETCH_HEAD
+	lg = log --graph --date=relative --pretty=format:'%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,cyan)%>(10,trunc)%ad %C(auto,green)%<(10,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D'
